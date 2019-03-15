@@ -4,7 +4,8 @@ import { Video } from '../../model/video.model.model';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-export const YOUTUBE_API_KEY = 'YOUR_KEY';
+// AIzaSyDReFQaM6T5De7yjqWS_1OkBuI30uZ4lzE
+export const YOUTUBE_API_KEY = 'AIzaSyDReFQaM6T5De7yjqWS_1OkBuI30uZ4lzE';
 export const YOUTUBE_API_URL = 'https://www.googleapis.com/youtube/v3/search';
 
 @Injectable()
